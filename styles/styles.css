@@ -139,7 +139,12 @@ main {
 
 .img-sobre img {
     display: flex;
-    padding-left: 20%;
+
+    box-shadow: -30px 30px 0px -1px rgba(86, 81, 117, 0.75);
+    -webkit-box-shadow: -30px 30px 0px -1px rgba(86, 81, 117, 0.75);
+    -moz-box-shadow: -30px 30px 0px -1px rgba(86, 81, 117, 0.75);
+
+
 }
 
 .sobre {
@@ -150,7 +155,49 @@ main {
     margin-top: 5%;
     background-color: #ffffff96;
     border-radius: 20px;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
+
+.sobre:hover {
+
+    -webkit-animation: swing 1s ease;
+    animation: anime-balanco 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+@keyframes anime-balanco {
+    15% {
+        -webkit-transform: translateX(7px);
+        transform: translateX(7px);
+    }
+
+    30% {
+        -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
+    }
+
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
 
 .sobre h2 {
     display: flex;
@@ -159,7 +206,32 @@ main {
     text-transform: uppercase;
 }
 
+
+
 .sobre p {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.services {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
+.services h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 80%;
 }
