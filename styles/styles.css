@@ -231,7 +231,19 @@ main {
 
 .services-container {
     display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    width: 80%;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+.ecoturismo img,
+.viagensinternacionais img,
+.viagensnacionais img,
+.cruzeiro img,
+.intercambios img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
 }
