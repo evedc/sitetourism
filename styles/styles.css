@@ -3,6 +3,7 @@
 * {
     margin: 0;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -61,7 +62,6 @@ nav ul li a:hover {
 main {
 
     background-image: url(../img/bg.jpg);
-
     background-size: cover;
 }
 
@@ -70,7 +70,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 5%;
+    padding-top: 2%;
     margin-bottom: 10%;
     width: 100%;
 
@@ -90,10 +90,10 @@ main {
 .title h1 {
     font-family: "Poppins", sans-serif;
     width: 100%;
-
-    font-size: 5rem;
+    font-size: 1.6rem;
+    text-align: center;
     text-transform: uppercase;
-    color: #e4491c;
+    color: #ffffff;
 }
 
 .paragraph {
@@ -102,10 +102,9 @@ main {
 }
 
 .paragraph p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: center;
-    color: #000000;
-
+    color: #ffffff;
     border-radius: 20px;
 }
 
@@ -115,19 +114,45 @@ main {
     padding-top: 3%;
     padding-bottom: 5%;
     width: 100%;
-    background-color: #e4491c;
+    background-color: #ffffff;
+}
+
+.btn-home {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 140px;
+    height: 40px;
+    background-color: #67b79e;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.btn-home:hover {
+    background-color: #67b79eab;
+    color: white;
+    transform: scale(1.1);
+}
+
+.btn-home a {
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    justify-items: left
 }
 
 .container {
-    width: 50%;
-    height: 400px;
+    width: 60%;
+    height: 500px;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff96;
     border-radius: 40px;
-
 }
 
 .img-sobre {
@@ -139,7 +164,6 @@ main {
 
 .img-sobre img {
     display: flex;
-
     box-shadow: -30px 30px 0px -1px rgba(86, 81, 117, 0.75);
     -webkit-box-shadow: -30px 30px 0px -1px rgba(86, 81, 117, 0.75);
     -moz-box-shadow: -30px 30px 0px -1px rgba(86, 81, 117, 0.75);
@@ -153,7 +177,7 @@ main {
     text-align: center;
     width: 40%;
     margin-top: 5%;
-    background-color: #ffffff96;
+    background-color: #56517559;
     border-radius: 20px;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
@@ -224,9 +248,9 @@ main {
 }
 
 .services h2 {
-    font-size: 2rem;
-    text-transform: uppercase;
-    margin-top: 2%;
+    font-size: 1.6rem;
+    color: #565175;
+    margin-top: 1%;
 }
 
 .services-container {
