@@ -178,7 +178,7 @@ main {
     width: 40%;
     margin-top: 5%;
     background-color: #56517559;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
@@ -237,6 +237,15 @@ main {
     padding-right: 5%;
 }
 
+.sobre-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
 .services {
     display: flex;
     text-align: center;
@@ -270,4 +279,15 @@ main {
     width: 300px;
     height: 200px;
     object-fit: cover;
+    border: 1px solid red;
+}
+
+.btn-services {
+    width: 100px;
+    height: 40px;
+    background-color: #565175;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
 }
