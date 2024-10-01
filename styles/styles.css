@@ -252,7 +252,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #fff;
     flex-direction: column;
 
 }
@@ -274,10 +274,11 @@ main {
 .viageminternacional {
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    width: 90%;
     text-align: center;
     align-items: center;
     justify-content: center;
+
 
 }
 
@@ -288,16 +289,82 @@ main {
     text-align: center;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;
+
 }
 
 .imagens-box {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 40%;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    border: 1px solid blue;
+    justify-content: space-between;
 
+
+}
+
+.destino {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+    background-color: #ffb727;
+    border-radius: 10%;
+
+
+}
+
+.destino h3 {
+    display: flex;
+}
+
+.destino h4 {
+    font-size: 0.8rem;
+    display: flex;
+    font-weight: 400;
+}
+
+.destino ul {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    flex-direction: column;
+    list-style: none;
+    font-size: 0.8rem;
+    padding-left: 0;
+
+}
+
+.destino li {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.precos-box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.h4preco {
+    font-family: 20px;
+}
+
+.precos {
+    justify-content: center;
+}
+
+.btn-preco {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: #e4491c;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
 }
