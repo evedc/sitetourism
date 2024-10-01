@@ -254,6 +254,7 @@ main {
     width: 100%;
     background-color: #ffffff;
     flex-direction: column;
+
 }
 
 .services h2 {
@@ -262,32 +263,41 @@ main {
     margin-top: 1%;
 }
 
-.services-container {
+.container-macro-services {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
     margin-top: 2%;
-    justify-content: space-between;
-    width: 90%;
 }
 
-
-.ecoturismo img,
-.viagensinternacionais img,
-.viagensnacionais img,
-.cruzeiro img,
-.intercambios img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
+.viageminternacional {
+    display: flex;
+    flex-direction: row;
     border: 1px solid red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.btn-services {
-    width: 100px;
-    height: 40px;
-    background-color: #565175;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
-    font-size: 0.8rem;
+.box-texto {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+.imagens-box {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+
 }
