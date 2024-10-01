@@ -295,36 +295,49 @@ main {
 .imagens-box {
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 70%;
+
     text-align: center;
     align-items: center;
     justify-content: space-between;
+}
+
+
+
+.imagem-box img {
+    width: 95%;
+    height: 280px;
+    object-fit: cover;
+    margin-top: 3%;
+    overflow: hidden;
+    border-radius: 5%;
 
 
 }
 
-.destino {
+.destino-box {
     display: flex;
     flex-direction: column;
-    width: 30%;
-    text-align: left;
+
+    width: 28%;
     background-color: #ffb727;
-    border-radius: 10%;
-
+    border-radius: 5%;
 
 }
 
-.destino h3 {
+.destino-box h3 {
     display: flex;
+    margin-left: 2%;
 }
 
-.destino h4 {
+.destino-box h4 {
     font-size: 0.8rem;
     display: flex;
     font-weight: 400;
+    margin-left: 2%;
 }
 
-.destino ul {
+.destino-box ul {
     display: flex;
     margin-top: 5%;
     margin-bottom: 10%;
@@ -332,39 +345,55 @@ main {
     list-style: none;
     font-size: 0.8rem;
     padding-left: 0;
+    margin-left: 2%;
 
 }
 
-.destino li {
+.destino-box li {
     display: flex;
     align-items: flex-start;
     text-align: left;
 }
 
-.precos-box {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.h4preco {
-    font-family: 20px;
-}
-
-.precos {
-    justify-content: center;
-}
 
 .btn-preco {
     display: flex;
     text-align: center;
     justify-items: center;
     justify-content: center;
-    width: 40%;
+    width: 80px;
+    height: 30px;
+    margin-left: 5%;
     background-color: #e4491c;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
     font-size: 1rem;
+}
+
+.precos-box {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+    justify-items: center;
+
+}
+
+.container-preco {
+    display: flex;
+    margin-left: 2%;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-btn {
+    display: flex;
+    margin-left: 10%;
+
 }
