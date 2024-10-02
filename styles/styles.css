@@ -72,7 +72,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-size: cover;
     flex-direction: column;
     padding-top: 2%;
