@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-header {
+nav {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -32,7 +32,7 @@ header {
     justify-items: center;
     height: 80px;
     background-color: #67b79e;
-
+    position: fixed;
 }
 
 .logo_header {
@@ -43,38 +43,32 @@ header {
 
 }
 
-nav {
+.menu {
+    position: fixed;
     width: 100%;
-    font-family: "Poppins", sans-serif;
+    padding: 15px 0;
+    text-align: right;
+
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav ul li {
-    margin-right: 0.5%;
-}
-
-nav ul li a {
-    text-decoration: none;
+.menu a {
     color: #ffffff;
-    padding: 14px 20px;
-    display: block;
+    text-decoration: none;
     font-size: 20px;
+    padding: 10px 20px;
 }
+
+.menu a:hover {
+    background-color: #565175;
+}
+
 
 nav ul li a:hover {
     background-color: #565175;
 }
 
 
-
-.welcome_container {
+header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,6 +81,8 @@ nav ul li a:hover {
     width: 100%;
 
 }
+
+
 
 .title {
     display: flex;
@@ -122,12 +118,10 @@ nav ul li a:hover {
 
 .sobre_container {
     display: flex;
-    flex-direction: row;
-    padding-top: 3%;
-    padding-bottom: 5%;
     width: 100%;
-    height: 100vh;
-    background-color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
 }
 
 .btn-home {
@@ -170,18 +164,16 @@ nav ul li a:hover {
 
 .img-sobre {
     width: 40%;
-    margin-top: 5%;
-    padding-left: 5%;
+    display: flex;
+    justify-content: center;
 
 }
 
-
 .img-sobre img {
-
+    width: 600px;
     box-shadow: -9px 7px 0px -2px rgba(86, 81, 117, 0.75);
     -webkit-box-shadow: -9px 7px 0px -2px rgba(86, 81, 117, 0.75);
     -moz-box-shadow: -9px 7px 0px -2px rgba(86, 81, 117, 0.75);
-
 }
 
 .sobre {
@@ -189,9 +181,8 @@ nav ul li a:hover {
     flex-direction: column;
     text-align: center;
     width: 40%;
-    margin-top: 5%;
     background-color: #56517559;
-    border-radius: 10px;
+
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
@@ -246,14 +237,13 @@ nav ul li a:hover {
 
 
 .sobre p {
-    padding-left: 5%;
-    padding-right: 5%;
+    margin: 5% 5% 5% 5%;
+
 }
 
 .sobre-box {
     display: flex;
     width: 100%;
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;

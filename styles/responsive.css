@@ -54,27 +54,13 @@
         flex-wrap: wrap;
     }
 
-    .sobre-container {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
+
 
     .borda1,
     .borda2 {
         width: 100%;
     }
 
-    .sobre-container {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 80%;
-        flex-wrap: wrap;
-    }
 
     .sobre-box {
         display: flex;
@@ -114,8 +100,8 @@
         flex-wrap: wrap;
     }
 
-    header {
-        width: 100%;
+    .navbar {
+        position: relative;
     }
 
     .container-macro-services {
@@ -161,27 +147,13 @@
         flex-wrap: wrap;
     }
 
-    .sobre-container {
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
 
     .borda1,
     .borda2 {
         width: 100%;
     }
 
-    .sobre-container {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 80%;
-        flex-wrap: wrap;
-    }
+
 
     .sobre-box {
         display: flex;
@@ -266,13 +238,6 @@
         display: flex;
         flex-direction: column-reverse;
         flex-wrap: wrap;
-    }
-
-    .sobre-container {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 80%;
-
     }
 
     .borda1,
@@ -360,12 +325,6 @@
         flex-wrap: wrap;
     }
 
-    .sobre-container {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 80%;
-
-    }
 
     .borda1,
     .borda2 {
@@ -453,12 +412,7 @@
         flex-wrap: wrap;
     }
 
-    .sobre-container {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 80%;
 
-    }
 
     .borda1,
     .borda2 {
