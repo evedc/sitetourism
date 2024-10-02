@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    width: 100%;
 }
 
 header {
@@ -59,11 +59,7 @@ nav ul li a:hover {
     background-color: #565175;
 }
 
-main {
 
-    background-image: url(../img/bg.jpg);
-    background-size: cover;
-}
 
 .welcome_container {
     display: flex;
@@ -278,8 +274,6 @@ main {
     text-align: center;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .box-texto {
@@ -289,14 +283,12 @@ main {
     text-align: center;
     align-items: center;
     justify-content: center;
-
 }
 
 .imagens-box {
     display: flex;
     flex-direction: row;
-    width: 70%;
-
+    width: 60%;
     text-align: center;
     align-items: center;
     justify-content: space-between;
@@ -318,11 +310,13 @@ main {
 .destino-box {
     display: flex;
     flex-direction: column;
-
     width: 28%;
-    background-color: #ffb727;
+    background: #f9f2e5;
     border-radius: 5%;
-
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 4px -2px #989898;
+    -moz-box-shadow: 0 4px 4px -2px #989898;
+    -webkit-box-shadow: 0 4px 4px -2px #989898;
 }
 
 .destino-box h3 {
@@ -355,21 +349,31 @@ main {
     text-align: left;
 }
 
+.container-dados {
+    display: flex;
+    margin-left: 3%;
+    flex-direction: column;
+}
 
 .btn-preco {
     display: flex;
     text-align: center;
+    font-weight: 300;
     justify-items: center;
     justify-content: center;
+    margin-top: 6%;
     width: 80px;
     height: 30px;
-    margin-left: 5%;
     background-color: #e4491c;
     color: #fff;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     font-size: 1rem;
+}
+
+.btn-preco:hover {
+    background-color: #ec5f38;
 }
 
 .precos-box {
@@ -379,10 +383,9 @@ main {
     justify-items: center;
     justify-content: center;
     width: 100%;
-    border: 1px solid red;
     text-align: center;
     justify-items: center;
-
+    margin-bottom: 4%;
 }
 
 .container-preco {
@@ -392,8 +395,137 @@ main {
     width: 50%;
 }
 
-.container-btn {
+.box-texto h3 {
     display: flex;
-    margin-left: 10%;
+    font-size: 40px;
+    color: #e4491c;
+}
 
+.container-texto {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+
+.viagemnacional {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-texto2 {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+.container-texto2 h3 {
+    display: flex;
+    font-size: 40px;
+    color: #e4491c;
+    justify-content: center;
+}
+
+.borda {
+    width: 100%;
+    margin-top: 5%;
+    border-bottom: 40px solid #ffb727;
+}
+
+.borda2 {
+    width: 100%;
+    margin-top: 8%;
+    border-bottom: 40px solid #538a95;
+}
+
+.titulo-contato2 {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 1.6rem;
+    justify-content: center;
+    color: #565175;
+}
+
+.container-macro {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5ba57;
+}
+
+.contatos {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.contato-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    width: 30%;
+    border-radius: 20px;
+
+
+}
+
+.mapa-box {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    border-radius: 3%;
+}
+
+.endereco {
+    margin-top: 2%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #67b79e;
+    color: #fff;
+}
+
+.direitos {
+    margin-top: 1%;
+    margin-bottom: .6%;
+}
+
+.redes-sociais {
+    margin-bottom: 1%;
+}
+
+.redes-sociais img:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
