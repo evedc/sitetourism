@@ -18,6 +18,7 @@
         text-align: center;
         align-items: center;
         width: 100%;
+        margin-top: 5%;
     }
 
     .viageminternacional {
@@ -67,6 +68,10 @@
         flex-direction: column-reverse;
         width: 100%;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
     }
 
     .img-sobre {
@@ -80,7 +85,11 @@
 
     .sobre {
         display: flex;
-        width: 80%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
     }
 
     .container-macro {
@@ -106,6 +115,7 @@
 
     .container-macro-services {
         display: flex;
+        margin-top: 5%;
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
@@ -158,8 +168,13 @@
     .sobre-box {
         display: flex;
         flex-direction: column-reverse;
-        width: 80%;
+        width: 100%;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+
     }
 
     .img-sobre {
@@ -173,7 +188,11 @@
 
     .sobre {
         display: flex;
-        width: 80%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
     }
 
     .container-macro {
@@ -259,7 +278,11 @@
 
     .sobre {
         display: flex;
-        width: 80%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
     }
 
     .container-macro {
@@ -346,7 +369,11 @@
 
     .sobre {
         display: flex;
-        width: 80%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
     }
 
     .container-macro {
@@ -424,6 +451,10 @@
         flex-direction: column-reverse;
         width: 100%;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
     }
 
     .img-sobre {
@@ -434,7 +465,11 @@
 
     .sobre {
         display: flex;
-        width: 80%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
     }
 
     .container-macro {

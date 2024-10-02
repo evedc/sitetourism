@@ -118,6 +118,7 @@ header {
 
 .sobre_container {
     display: flex;
+    flex-direction: column;
     width: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -248,6 +249,7 @@ header {
     justify-content: center;
     align-items: center;
     justify-items: center;
+
 }
 
 .services {
