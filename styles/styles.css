@@ -2,15 +2,11 @@
 
 * {
     margin: 0;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-}
-
-body {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 
 /*barra de rolagem*/
@@ -114,7 +110,7 @@ nav ul li a:hover {
 
 .paragraph {
     display: flex;
-    width: 100%;
+    width: 60%;
 }
 
 .paragraph p {
