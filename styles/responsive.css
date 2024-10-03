@@ -481,3 +481,37 @@
         justify-content: center;
     }
 }
+
+
+@media (max-width: 768px) {
+    .menu {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        /* Posicionando o menu fora da tela, à direita */
+        width: 250px;
+        height: 100vh;
+        background-color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.3s;
+        padding-top: 3rem;
+    }
+
+    .menu a {
+        margin: 1rem 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    /* Quando o menu estiver ativo */
+    .menu-active {
+        right: 0;
+        /* Fazendo o menu deslizar para dentro da tela */
+    }
+}

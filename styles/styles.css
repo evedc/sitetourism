@@ -33,6 +33,28 @@ nav {
     height: 80px;
     background-color: #67b79e;
     position: fixed;
+    z-index: 1000;
+
+}
+
+.menu-icon {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 1rem;
+    /* Ícone de hambúrguer alinhado à direita */
+}
+
+.menu a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #575757;
 }
 
 .logo_header {

@@ -13,18 +13,21 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="menuOculto">
         <div class="logo_header">
             <img src="./img//rotaturismo.png" style="width: 80px">
         </div>
 
-        <div class="menu">
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776; <!-- Ícone de hamburguer -->
+        </div>
+
+        <div class="menu" id="menu">
             <a href="#home">Início</a>
             <a href="#servicos">Serviços</a>
             <a href="#sobre">Sobre</a>
             <a href="#contato">Contato</a>
         </div>
-
     </nav>
 
 
@@ -51,6 +54,7 @@
 
 
     <main>
+
 
         <section class="services" id="servicos">
 
@@ -334,6 +338,8 @@
 
     </footer>
 
+
+    <script src="./scripts/engine.js"></script>
 </body>
 
 </html>
