@@ -120,7 +120,7 @@
     }
 
     .img-sobre img {
-        width: 300px;
+        width: 200px;
     }
 
     .sobre {
@@ -139,6 +139,10 @@
         align-items: center;
         text-align: center;
         justify-content: center;
+    }
+
+    .mapa-box {
+        width: 40%;
     }
 }
 
@@ -211,193 +215,6 @@
     .img-sobre {
         display: flex;
         width: 40%;
-    }
-
-    .sobre {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-        text-align: center;
-    }
-
-    .container-macro {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
-    body {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    header {
-        width: 100%;
-    }
-
-    .container-macro-services {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .viageminternacional {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .box-texto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .imagens-box {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .destino-box {
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-        width: 50%;
-    }
-
-    .viagemnacional {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-    }
-
-
-    .borda1,
-    .borda2 {
-        width: 100%;
-    }
-
-    .sobre-box {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        flex-wrap: wrap;
-    }
-
-    .img-sobre {
-        display: flex;
-        width: 40%;
-        flex-direction: column-reverse;
-    }
-
-    .sobre {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-        text-align: center;
-    }
-
-    .container-macro {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
-    body {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    header {
-        width: 100%;
-    }
-
-    .container-macro-services {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .viageminternacional {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .box-texto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .imagens-box {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .destino-box {
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-        width: 50%;
-    }
-
-    .viagemnacional {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-    }
-
-
-
-    .borda1,
-    .borda2 {
-        width: 100%;
-    }
-
-    .sobre-box {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-        text-align: center;
-    }
-
-    .img-sobre {
-        display: flex;
-        width: 40%;
-        flex-direction: column-reverse;
     }
 
     .sobre {
