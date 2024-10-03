@@ -44,7 +44,14 @@ nav {
     display: none;
     position: absolute;
     right: 1rem;
-    /* Ícone de hambúrguer alinhado à direita */
+    top: 1rem;
+    z-index: 1000;
+
+}
+
+.menu-active .menu-icon {
+    display: block;
+
 }
 
 .menu a {

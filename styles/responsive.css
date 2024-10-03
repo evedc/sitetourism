@@ -488,10 +488,9 @@
         position: fixed;
         top: 0;
         right: -250px;
-        /* Posicionando o menu fora da tela, à direita */
-        width: 250px;
+        width: 180px;
         height: 100vh;
-        background-color: #333;
+        background-color: #67b79e;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -509,9 +508,11 @@
         display: block;
     }
 
-    /* Quando o menu estiver ativo */
     .menu-active {
         right: 0;
-        /* Fazendo o menu deslizar para dentro da tela */
+    }
+
+    .menu-active .menu-icon {
+        color: white;
     }
 }

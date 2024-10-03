@@ -1,4 +1,3 @@
-// Função para alternar o menu
 function toggleMenu() {
     const menu = document.querySelector('.menu');
     const menuIcon = document.querySelector('.menu-icon');
